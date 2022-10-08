@@ -3,10 +3,9 @@ plugins {
     id 'java-library'
 }
 
-group 'examples.debuggingspring'
-version '1.0.0'
-
 subprojects {
+
+    group 'examples.debuggingspring'
 
     apply plugin: 'java'
     apply plugin: 'io.spring.dependency-management'
@@ -20,7 +19,6 @@ subprojects {
         compileOnly 'org.projectlombok:lombok'
         annotationProcessor 'org.projectlombok:lombok'
         implementation 'org.springframework.boot:spring-boot-starter'
-        implementation 'org.springframework.boot:spring-boot-starter-logging'
 
         testCompileOnly 'org.projectlombok:lombok'
         testAnnotationProcessor 'org.projectlombok:lombok'

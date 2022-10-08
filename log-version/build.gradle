@@ -1,6 +1,4 @@
-group 'examples.debuggingspring'
-
-version '1.0.0'
+version = System.getProperty("BUILD_NUMBER", "latest")
 
 springBoot {
     buildInfo()
