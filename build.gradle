@@ -3,6 +3,11 @@ plugins {
     id 'java-library'
 }
 
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+bootJar.enabled = false
+
 subprojects {
 
     group 'examples.debuggingspring'
@@ -10,6 +15,8 @@ subprojects {
     apply plugin: 'java'
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'org.springframework.boot'
+
+    bootJar.enabled = false
 
     repositories {
         mavenCentral()
