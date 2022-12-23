@@ -16,3 +16,5 @@ referencing specific branch that is not deleted after merging (and thus can be o
 - <b>log-version</b>: \
   Explains how to configure logback to add app version to all logs \
   Corresponds to Medium.com article -> https://medium.com/p/182dbce8e88c
+- <b>context-refresh</b>: \
+  Describes various scenarios related to updating env props at app runtime
