@@ -1,4 +1,5 @@
 rootProject.name = 'debugging-spring'
 
 include 'log-version'
+include 'context-refresh'
 
