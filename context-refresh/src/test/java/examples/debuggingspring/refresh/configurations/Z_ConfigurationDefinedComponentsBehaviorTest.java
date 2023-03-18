@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static org.springframework.beans.factory.annotation.BeanFactoryAnnotationUtils.qualifiedBeanOfType;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class ConfigurationDefinedComponentsBehaviorTest extends PropertiesUpdateBaseTest {
+public class Z_ConfigurationDefinedComponentsBehaviorTest extends PropertiesUpdateBaseTest {
 
     @Order(value = 0)
     @Test

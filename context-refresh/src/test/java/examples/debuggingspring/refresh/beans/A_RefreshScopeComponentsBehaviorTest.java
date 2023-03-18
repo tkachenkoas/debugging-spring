@@ -11,7 +11,7 @@ import org.springframework.cloud.autoconfigure.RefreshAutoConfiguration;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @TestMethodOrder(OrderAnnotation.class)
-public class RefreshScopeComponentsBehaviorTest extends PropertiesUpdateBaseTest {
+public class A_RefreshScopeComponentsBehaviorTest extends PropertiesUpdateBaseTest {
 
     @Order(value = 0)
     @Test
