@@ -8,8 +8,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 public abstract class IdAndPropAware {
 
     private static final AtomicInteger ID_REGISTRY = new AtomicInteger(0);
+    private final int id;
 
-    private final int id = ID_REGISTRY.incrementAndGet();
+    public IdAndPropAware() {
+        this.id = ID_REGISTRY.incrementAndGet();
+    }
+
 
     public abstract String getProperty();
 
